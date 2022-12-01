@@ -1,10 +1,28 @@
 header {
     background-color: aquamarine;
-    display: flex;
-    align-items: center;
+    
 }
 
 nav {
+    
+}
+
+main {
     display: flex;
-    justify-content: end;
+    flex-wrap: wrap;
+}
+
+aside {
+    width: 18%;
+    border-right: 2px solid;
+
+}
+
+.right {
+    width: 80%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
 }
