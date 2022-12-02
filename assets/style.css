@@ -1,10 +1,21 @@
-header {
+.top-header {
+    display: flex;
+    justify-content: space-around;
     background-color: aquamarine;
     
 }
 
-nav {
-    
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.headshot {
+    border-radius: 100%;
+}
+
+.subheading {
+    text-align: center;
 }
 
 main {
@@ -20,9 +31,30 @@ aside {
 
 .right {
     width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
+    width: 40%;
+    border: 1px solid black;
 }
+
+#main-project {
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
