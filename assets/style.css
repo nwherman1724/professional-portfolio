@@ -1,8 +1,22 @@
-.top-header {
+*{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+header {
     display: flex;
-    justify-content: space-around;
-    background-color: aquamarine;
-    
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header li {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+#nav-title {
+    margin-right: auto;
 }
 
 .img-container {
@@ -25,19 +39,26 @@ main {
 
 aside {
     width: 18%;
+    text-align: right;
     border-right: 2px solid;
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
 
+aside h3 {
+    font-size: 30px;
 }
 
 .right {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .card {
-    width: 40%;
+    width: 47%;
+    margin: 10px;
     border: 1px solid black;
 }
 
@@ -47,14 +68,20 @@ aside {
     border: 1px solid black;
 }
 
-ul {
+.contact {
     display: flex;
-    justify-content: space-between;
+    width: 80%;
 }
 
-ul li {
+.contact ul {
     display: flex;
-    justify-content: space-between;
-    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 8px;
 }
 
+.contact li {
+    display: block;
+    justify-content: space-around;
+}
