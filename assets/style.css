@@ -6,6 +6,10 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    background-color: transparent;
+    color: white;
+    position: relative;
+    z-index: 1;
 }
 
 header li {
@@ -15,8 +19,37 @@ header li {
     padding: 0 20px;
 }
 
+a {
+    color: white;
+}
+
 #nav-title {
     margin-right: auto;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(./images/02-hero-bg.jpg);
+    position: relative;
+    margin-top: -100px;
+    z-index: -1;
+}
+
+.sub-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    font-size: 40px;
+    z-index: 3;
+}
+
+main {
+    margin-top: 15px;
 }
 
 .img-container {
