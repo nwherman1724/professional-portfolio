@@ -41,6 +41,15 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
+##Screen Shots
+
+<img width="1419" alt="Screenshot 2023-01-20 at 6 53 01 AM" src="https://user-images.githubusercontent.com/93491747/213689057-9265eb3f-8db7-4424-bc1c-b1fba73d83fd.png">
+
+<img width="1433" alt="Screenshot 2023-01-20 at 6 54 15 AM" src="https://user-images.githubusercontent.com/93491747/213689370-269606e4-2177-45c7-b725-32b79a0630b1.png">
+
+<img width="1430" alt="Screenshot 2023-01-20 at 6 54 36 AM" src="https://user-images.githubusercontent.com/93491747/213689414-714bbffc-d10b-4ab7-a644-e241e3066922.png">
+
+
 ## Credits
 
 Project provided by MSU Full-Stack Coding Bootcamp
